@@ -131,7 +131,13 @@ int main()
     double temp , i;
     struct DynamicDoubleStack stack ;
     initialize(&stack);
-    cout << size(&stack) << endl ;
+//
+//---------give the size before the push --------------
+//    
+    cout << size(&stack) << endl  
+//
+//---------push the item in the stack--------------
+//
     for( i = 0 ; i < 11 ; i++ )
     {
         cout << "Enter the element " << endl ;
@@ -139,7 +145,11 @@ int main()
         push(&stack,temp);
         cout << "size ->" << size(&stack) << endl ;
     }
-      for( i = 0 ; i < 11 ; i++ )
+//
+//---------pop the item in the stack--------------
+//
+
+    for( i = 0 ; i < 11 ; i++ )
     {
         pop(&stack,&temp);
         cout << temp << endl ;
