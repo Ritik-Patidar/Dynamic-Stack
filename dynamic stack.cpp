@@ -136,7 +136,7 @@ int main()
 //    
     cout << size(&stack) << endl  
 //
-//---------push the item in the stack--------------
+//---------push items in the stack--------------
 //
     for( i = 0 ; i < 11 ; i++ )
     {
@@ -146,7 +146,7 @@ int main()
         cout << "size ->" << size(&stack) << endl ;
     }
 //
-//---------pop the item in the stack--------------
+//---------pop items from the stack--------------
 //
 
     for( i = 0 ; i < 11 ; i++ )
